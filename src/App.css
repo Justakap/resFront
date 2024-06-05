@@ -36,3 +36,20 @@
     transform: rotate(360deg);
   }
 }
+
+
+.bgme{
+  background-image: url("https://static.vecteezy.com/system/resources/thumbnails/004/584/977/small/beautiful-wood-background-with-text-space-free-vector.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bgrmat{
+  background-image: url("https://img.freepik.com/free-vector/green-casino-poker-table-texture-game-background_107791-20546.jpg?w=996&t=st=1711900769~exp=1711901369~hmac=471c6b34d382d48bee81021634a81bfe5437e427cc5d5059215ba0ff79c8ca6c");
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 10;
+  
+}
+.centerMe{
+  transform: translate(-50%,-50%);
+}
