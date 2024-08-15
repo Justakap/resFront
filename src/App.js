@@ -4,11 +4,18 @@ import Home from './components/ResultAnalysis/Home';
 import Disclaimer from './components/ResultAnalysis/Disclaimer'
 import AddSubject from './components/ResultAnalysis/AddSubject';
 import WhatsNew from './components/ResultAnalysis/WhatsNew';
-
+import HomeNew from './components/ResultAnalysis/HomeNew';
+// import runOneSignal from './OneSignal';
+// import { useEffect } from 'react';
 
 
 
 function App() {
+
+  // useEffect(() => {
+  //   runOneSignal()
+
+  // }, [])
 
 
   return (
@@ -19,6 +26,8 @@ function App() {
         <Routes>
           <Route path='/' exact element={<>
             <Home></Home>
+            {/* <HomeNew></HomeNew> */}
+            
           </>}
           />
         </Routes>

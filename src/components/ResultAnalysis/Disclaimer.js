@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Disclaimer() {
     return (
-        <div className='bg-slate-100 h-screen'>
+        <div className='bg-slate-100 h-screen p-4'>
             <div className="max-w-2xl mx-auto bg-slate-100 py-4">
                 <h2 className="text-xl font-bold mb-4">Disclaimer : Result Analysis Tool</h2>
                 <ol className="list-decimal list-inside">
